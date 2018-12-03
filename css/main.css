@@ -8,6 +8,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 .content {
   position: absolute;
   left: 50%;
