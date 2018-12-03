@@ -34,6 +34,10 @@ html {
   height: 500px;
 }
 
+img {
+  align-items: flex-start;
+}
+
 .img-flex {
   width: 100%;
   display: flex;
