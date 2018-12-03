@@ -7,3 +7,49 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.content {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 50em;
+  overflow: hidden;
+}
+
+.content h2 {
+  font-size: 3rem;
+  color: #333;
+  margin: 0 auto;
+}
+
+.content p {
+  font-size: 1.5rem;
+  font-style: italic;
+  max-height: 50%;
+}
+
+.banner {
+  position: relative;
+  height: 500px;
+}
+
+.img-flex {
+  width: 100%;
+  display: flex;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: #333;
+  padding: .4em .75em .3em;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: #000;
+}
