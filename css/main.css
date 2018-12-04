@@ -29,6 +29,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 3em;
+  margin-left: 5em;
 }
 
 .content h2 {
@@ -50,6 +52,7 @@ body {
   width: 60%;
   line-height: 1;
   margin-left: 2em;
+  margin-right: 7em;
 }
 
 .img-flex {
