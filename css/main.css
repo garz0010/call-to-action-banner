@@ -48,6 +48,11 @@ body {
   display: block;
 }
 
+.robot-img {
+  width: 35%;
+  display: block;
+}
+
 .btn {
   color: #fff;
   background-color: #333;
