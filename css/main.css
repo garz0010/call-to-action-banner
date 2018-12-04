@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   line-height: 1.5;
 }
 
@@ -18,23 +18,30 @@ body {
   transform: translateX(-50%);
   bottom: 0;
   width: 100%;
-  max-width: 50em;
+  max-width: 15em;
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 10em;
 }
 
 .content h2 {
   font-size: 3rem;
+  font-weight: 700;
   color: #000;
+  margin: 0
 }
 
 .content p {
   font-size: 1.5rem;
   max-height: 50%;
+  margin-top: 0;
 }
 
 .text {
-  justify-content: center;
+  width: 60%;
+  line-height: 1;
+  margin-left: 2em;
 }
 
 .banner {
@@ -50,7 +57,7 @@ body {
 
 .robot-img {
   width: 35%;
-  display: block;
+  display: flex;
 }
 
 .btn {
