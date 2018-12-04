@@ -55,6 +55,10 @@ body {
   margin-right: 6em;
 }
 
+.title {
+  margin-right: -18px;
+}
+
 .img-flex {
   width: 100%;
   display: block;
