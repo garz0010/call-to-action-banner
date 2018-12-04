@@ -19,6 +19,8 @@ body {
   bottom: 0;
   width: 100%;
   max-width: 50em;
+  display: flex;
+
 }
 
 .content h2 {
@@ -29,13 +31,6 @@ body {
 .content p {
   font-size: 1.5rem;
   max-height: 50%;
-}
-
-.robot {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  top: auto;
 }
 
 .banner {
