@@ -20,6 +20,7 @@ body {
   width: 100%;
   max-width: 50em;
   display: flex;
+  margin-bottom: 10em;
 }
 
 .content h2 {
@@ -31,6 +32,9 @@ body {
   font-size: 1.5rem;
   max-height: 50%;
 }
+
+.text {
+  justify-content: center;}
 
 .banner {
   position: relative;
