@@ -64,7 +64,7 @@ body {
 .btn {
   color: #fff;
   background-color: #333;
-  padding: .75em 0.75em .85em;
+  padding:.75em 0.75em .85em;
   text-decoration: none;
   display: inline-block;
   border-radius: 8px;
