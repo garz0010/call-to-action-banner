@@ -31,6 +31,13 @@ body {
   max-height: 50%;
 }
 
+.robot {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  top: auto;
+}
+
 .banner {
   position: relative;
   height: 500px;
