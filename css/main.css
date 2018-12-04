@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   line-height: 1.5;
 }
 
@@ -12,29 +12,32 @@ body {
   margin: 0;
 }
 
+.banner {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+}
+
 .content {
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
-  bottom: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
   width: 100%;
-  max-width: 15em;
+  max-width: 50em;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10em;
 }
 
 .content h2 {
   font-size: 3rem;
-  font-weight: 700;
   color: #000;
-  margin: 0
+  margin: 0;
 }
 
 .content p {
   font-size: 1.5rem;
-  max-height: 50%;
   margin-top: 0;
 }
 
@@ -44,12 +47,6 @@ body {
   margin-left: 2em;
 }
 
-.banner {
-  position: relative;
-  height: 500px;
-  overflow: hidden;
-}
-
 .img-flex {
   width: 100%;
   display: block;
@@ -57,7 +54,6 @@ body {
 
 .robot-img {
   width: 35%;
-  display: flex;
 }
 
 .btn {
