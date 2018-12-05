@@ -29,7 +29,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 5px;
-  margin-left: 0;
+  margin-left: 1em;
 }
 
 .content h2 {
@@ -66,7 +66,7 @@ body {
 }
 
 .robot-img {
-  width: 40%;
+  width: 39%;
   margin-bottom: 17%;
 }
 
