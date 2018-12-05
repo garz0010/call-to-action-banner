@@ -62,6 +62,7 @@ body {
 
 .img-flex {
   width: 100%;
+  display: block;
 }
 
 .robot-img {
